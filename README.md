@@ -4,7 +4,7 @@ A web-based map location game requiring the user to locate all the 10 Pokémons 
 
 ## :film_projector: DEMO
 <p align="center">
-<img src="#" alt="finding pokémons">
+<img src="./assets/pokemap.gif" alt="finding pokémons">
 </p>
 
 ## :man_technologist: Technology Stack
