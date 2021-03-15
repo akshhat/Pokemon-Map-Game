@@ -51,3 +51,7 @@ button {
 .hidden {
   visibility: hidden;
 }
+
+button:hover {
+  cursor: pointer;
+}
