@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: "Press Start 2P", cursive;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+h1,
+h2,
+p {
+  text-align: center;
+  padding: 0 3rem;
+}
+
+#map {
+  height: 60vh;
+}
+
+#display {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 0.5em 2em;
+  font-family: "Press Start 2P", cursive;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 5px;
+}
+
+.gm-style-iw {
+  color: black;
+}
+
+.hidden {
+  visibility: hidden;
+}

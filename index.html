@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon - Gotta catch ém all!</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <h1>Pokémon</h1>
+    <h2>Gotta catch ém all!</h2>
+
+    <div id="map"></div>
+
+    <div id="display">
+      <p>Pokémons Collected: <span id="collection"></span></p>
+      <p class="hidden">Congratulations! You got ém all!</p>
+      <button class="hidden">Catch More Pokémons</button>
+    </div>
+
+    <script src="./cities.js"></script>
+    <!-- Manipulating the map object -->
+    <script src="./map.js"></script>
+    <!-- Calling the JS Maps API -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2yYJ7A5jWuaDdJkGrmbf9hpqwAmk7kUw&map_ids=ecb4ceb12e4f1660&callback=initMap"></script>
+  </body>
+</html>
